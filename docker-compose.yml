@@ -47,6 +47,6 @@ services:
       - MARIADB_ROOT_PASSWORD=P@ssw0rd
       - MARIADB_DATABASE=redisgo
     ports:
-      - 3306:3306
+      - 3307:3306
     volumes:
       - ./data/mariadb:/var/lib/mysql
